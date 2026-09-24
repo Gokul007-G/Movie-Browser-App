@@ -1,0 +1,41 @@
+name: moviebrowserapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  cached_network_image: ^4.0.1
+  dio: ^5.11.1
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^6.0.1
+  get: ^4.7.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon_1024.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0F0F12"
+  adaptive_icon_foreground: "assets/app_icon_foreground_1024.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/

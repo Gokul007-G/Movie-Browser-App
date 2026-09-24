@@ -1,0 +1,22 @@
+import 'package:moviebrowserapp/domain/entities/movie_details.dart';
+
+class GenreModel extends Genre {
+  const GenreModel({
+    required super.id,
+    required super.name,
+  });
+
+  factory GenreModel.fromJson(Map<String, dynamic> json) {
+    return GenreModel(
+      id: json['id'] ?? 0,
+      name: json['name'] ?? '',
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+    };
+  }
+}
