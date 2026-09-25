@@ -87,7 +87,7 @@ Version ::
     Dart 3.12.2
 
 Installation & Setup ::
-    git clone YOUR_PRIVATE_REPOSITORY_URL
+    git clone https://github.com/Gokul007-G/Movie-Browser-App.git
     flutter pub get
     flutter run
 
