@@ -62,6 +62,7 @@ The application uses the TMDB API to retrieve movie information.
 TMDB provides movie-related information.
 
 
+
 Getting a TMDB API Key
 Step 1 — Create a TMDB account
 Step 2 — Open API settings
@@ -91,3 +92,20 @@ Installation & Setup ::
     flutter pub get
     flutter run
 
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="250">
+  <img src="assets/screenshots/home with go to top option.png" width="250">
+  <img src="assets/screenshots/search with movie.png" width="250">
+  <img src="assets/screenshots/not found movie.png" width="250">
+  <img src="assets/screenshots/filter with rating.png" width="250">
+  <img src="assets/screenshots/filter movies.png" width="250">
+  <img src="assets/screenshots/movie details.png" width="250">
+  <img src="assets/screenshots/movie details 2.png" width="250">
+  <img src="assets/screenshots/add to favorite.png" width="250">
+  <img src="assets/screenshots/list of favorites movie.png" width="250">
+  <img src="assets/screenshots/clear option.png" width="250">
+  <img src="assets/screenshots/network error with loading time.png" width="250">
+  <img src="assets/screenshots/network error.png" width="250">
+  <img src="assets/screenshots/hive to show the list in favourites.png" width="250">
+</p>
